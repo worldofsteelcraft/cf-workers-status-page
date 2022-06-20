@@ -25,7 +25,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: wosc-smp # unique identifier
-    name: WoSC SMP Server
+    name: SMP Server
     url: 'https://api.mcsrvstat.us/bedrock/simple/smp.worldofsteelcraft.tk:25576' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -33,7 +33,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: wosc-files # unique identifier
-    name: WoSC SMP Server
+    name: File Server
     url: 'https://files.worldofsteelcraft.tk' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
