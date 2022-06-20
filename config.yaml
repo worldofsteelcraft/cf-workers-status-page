@@ -1,14 +1,14 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  title: 'WoSC Service Uptime Page'
+  url: 'https://status.worldofsteelcraft.tk' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
+  allmonitorsOperational: 'All Systems Online'
+  notAllmonitorsOperational: 'Not All Systems Online'
+  monitorLabelOperational: 'Online'
+  monitorLabelNotOperational: 'Offline'
   monitorLabelNoData: 'No data'
   dayInHistogramNoData: 'No data'
   dayInHistogramOperational: 'All good'
@@ -44,7 +44,7 @@ monitors:
     name: Link Service 1
     url: 'https://wosc.tk/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 301 # operational status, default=200
+    expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
@@ -52,6 +52,6 @@ monitors:
     name: Link Service 2
     url: 'https://lnksvc2.wosc.tk/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 301 # operational status, default=200
+    expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
