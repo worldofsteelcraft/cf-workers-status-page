@@ -1,5 +1,5 @@
 settings:
-  title: 'WoSC Service Uptime Page'
+  title: 'WoSC Uptime Monitor'
   url: 'https://status.worldofsteelcraft.tk' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 60 # number of days you want to display in histogram
