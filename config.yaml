@@ -18,7 +18,7 @@ monitors:
   - id: wosc-web # unique identifier
     name: Website
     description: 'Official World of SteelCraft Website' # default=empty
-    url: 'https://worldofsteelcraft.tk/' # URL to fetch
+    url: 'https://worldofsteelcraft.gq/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -26,7 +26,7 @@ monitors:
 
   - id: wosc-smp # unique identifier
     name: SMP Server
-    url: 'https://api.mcsrvstat.us/bedrock/simple/smp.worldofsteelcraft.tk:25576' # URL to fetch
+    url: 'https://api.mcsrvstat.us/bedrock/simple/smp.worldofsteelcraft.gq:25576' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -34,7 +34,7 @@ monitors:
 
   - id: wosc-files # unique identifier
     name: File Server
-    url: 'https://files.worldofsteelcraft.tk' # URL to fetch
+    url: 'https://files.worldofsteelcraft.gq' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
