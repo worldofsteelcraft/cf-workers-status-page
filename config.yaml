@@ -1,6 +1,6 @@
 settings:
   title: 'WoSC Uptime Monitor'
-  url: 'https://status.worldofsteelcraft.gq' # used for Slack messages
+  url: 'https://status.worldofsteelcraft.tk' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 60 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -18,7 +18,7 @@ monitors:
   - id: wosc-web # unique identifier
     name: Website
     description: 'Official World of SteelCraft Website' # default=empty
-    url: 'https://worldofsteelcraft.gq/' # URL to fetch
+    url: 'https://worldofsteelcraft.tk/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -34,7 +34,7 @@ monitors:
 
   - id: wosc-files # unique identifier
     name: File Server
-    url: 'https://files.worldofsteelcraft.gq' # URL to fetch
+    url: 'https://files.worldofsteelcraft.tk' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
