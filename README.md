@@ -1,7 +1,6 @@
-# Archived in favor of [Upptime](https://github.com/upptime/upptime)
-
-
-
+### This repository is now archived and abandoned in favor of Upptime.  
+##### Current Status Page Repository: https://github.com/worldofsteelcraft/status
+---
 # Cloudflare Worker - Status Page
 
 Monitor your websites, showcase status including daily history, and get Slack notification whenever your website status changes. Using **Cloudflare Workers**, **CRON Triggers,** and **KV storage**. Check [my status page](https://status-page.eidam.dev) out! 🚀
